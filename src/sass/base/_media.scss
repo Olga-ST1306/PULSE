@@ -1,0 +1,22 @@
+@media (max-width: 575px) {
+    .header {
+        flex-direction: column;
+        &__official {
+            margin-top: 13px;
+            text-align: center;
+        }
+        &__contacts {
+            margin-top: 13px;
+            align-items: center;
+        }
+        
+    }
+    .promo {
+        height: 460px;
+        }
+
+    
+
+}
+
+    
