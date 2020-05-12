@@ -1,9 +1,9 @@
 @font-face {
     font-family: 'Museo Sans Cyrl';
-    src: url('../fonts/MuseoSansCyrl-300.eot.eot');
-    src: url('../fonts/MuseoSansCyrl-300.eot.eot?#iefix') format('embedded-opentype'),
-    url('../fonts/MuseoSansCyrl-300.eot.woff') format('woff'),
-    url('../fonts/MuseoSansCyrl-300.eot.ttf') format('truetype');
+    src: url('../fonts/MuseoSansCyrl-300.eot');
+    src: url('../fonts/MuseoSansCyrl-300.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/MuseoSansCyrl-300.woff') format('woff'),
+    url('../fonts/MuseoSansCyrl-300.ttf') format('truetype');
     font-weight: 300;
     font-style: normal;
     }
