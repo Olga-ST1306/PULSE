@@ -1,4 +1,28 @@
-@media (max-width: 575px) {
+
+@media (max-width: 1200px) {
+    .header {
+        padding: 0 30px;
+    }
+    .promo {
+        padding-bottom: 30px;
+        &__wrapper {
+            padding: 0 30px;
+        }
+    }
+    .advantages {
+        padding: 50px 0;
+        &__item {
+            padding: 0 30px;
+        }
+    }
+    .consultation {
+        padding: 60px 30px 40px 30px;
+    }
+}
+@media (max-width: 991px) {
+
+}
+@media (max-width: 767px) {
     .header {
         flex-direction: column;
         &__official {
@@ -9,10 +33,36 @@
             margin-top: 13px;
             align-items: center;
         }
-        
     }
     .promo {
-        // height: 460px;
+        &__wrapper {
+            margin-top: 40px;
+        }
+        &__icons {
+            margin-top: 30px;
+        }
+    }
+    .button_main {
+        margin-top: 30px;
+    }
+
+    .advantages {
+        &__wrapper {
+            margin-top: 30px;
+        }
+    }
+
+    .consultation {
+        min-height: 580px;
+        padding-top: 40px;
+    }
+    .title_left {
+        font-size: 30px;
+    }
+}
+
+@media (max-width: 575px) {
+    .promo {
         &__wrapper {
             margin-top: 30px;
             align-items: center;
@@ -27,7 +77,10 @@
         }
         &__icons {
             margin-top: 25px;
-            width: 345px;
+            width: 100%;
+        }
+        &__icon {
+            width: 75px;
         }
         &__link {
             margin-top: 15px;
@@ -42,24 +95,32 @@
     }
 
     .advantages {
-        padding-top: 50px;
-
-  
         &__wrapper {
             margin-top: 0;
-            padding-bottom: 30px;
             flex-direction: column;
             align-items: center;
         }
         &__item {
-            margin-top: 30px;
+            margin-top: 25px;
+            padding: 0;
         }
         &__subtitle {
-            margin-top: 18px;
+            margin-top: 15px;
         }
         &__descr {
             margin-top: 10px;
         }
+    }
+    .consultation {
+        .feed-form {
+            margin-top: 30px;
+            text-align: center;
+            width: 260px;
+        }
+    }
+    .button_submit {
+        width: 260px;
+        font-size: 15px;
     }
 }
 
