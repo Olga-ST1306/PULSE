@@ -18,9 +18,15 @@
     .consultation {
         padding: 60px 30px 40px 30px;
     }
+    
 }
 @media (max-width: 991px) {
-
+    .carousel {
+        img {
+            margin: 0 auto;
+            width: 80%;
+        }
+    }
 }
 @media (max-width: 767px) {
     .header {
@@ -58,6 +64,23 @@
     }
     .title_left {
         font-size: 30px;
+    }
+    .catalog {
+        padding: 0 20px;
+    }
+    .carousel {
+        &__inner {
+            width: 550px;
+        }
+        img {
+            margin: 0 auto;
+        }
+    }
+    .catalog {
+        &__content {
+            flex-direction: column;
+            align-content: center;
+        }
     }
 }
 
@@ -121,6 +144,26 @@
     .button_submit {
         width: 260px;
         font-size: 15px;
+    }
+    .carousel {
+        &__inner {
+            width: 315px;
+        }
+    }
+    .catalog {
+        &__tabs {
+            margin-top: 20px;
+            flex-direction: column;
+            align-items: center;
+        }
+        &__tab {
+            margin-bottom: 8px;
+        }
+        &__content {
+            margin-top: 20px;
+            flex-direction: column;
+            align-content: center;
+        }
     }
 }
 

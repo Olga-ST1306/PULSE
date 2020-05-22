@@ -5,6 +5,7 @@
         position: relative;
         width: 750px;
         margin: 0 auto;
+        
     }
     .slick-prev, .slick-next {
         position: absolute;
@@ -21,5 +22,31 @@
     .slick-next {
         right: -66px;
         left: auto;
+    }
+    .slick-dots {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      
+        li {
+            list-style: none;
+           
+            button {
+                margin-left: 5px;
+                margin-right: 5px;
+                font-size: 0;
+                width: 10px;
+                height: 10px;
+                background-color: rgb(137, 133, 133);
+                border-radius: 50%;
+                border: none;
+                &:hover {
+                    background-color: transparent;
+                    border: 1px solid grey;
+                }
+                
+            }
+        }
+    
     }
 }
