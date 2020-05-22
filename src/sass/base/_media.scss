@@ -185,6 +185,20 @@
             }
         }
     }
+    .footer {
+        &__info {
+            width: 320px;
+            height: 200px;
+            padding: 25px 35px 30px 35px;
+        }
+        &__addr {
+            font-size: 15px;
+        }
+        &__phone {
+            margin-top: 20px;
+            font-size: 15px;
+        }
+    }
 }
 
     
