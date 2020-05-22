@@ -1,0 +1,36 @@
+.reviews {
+    padding-bottom: 70px;
+    &__wrapper {
+        margin-top: 70px;
+    }
+    &__item {
+        display: flex;
+        align-items: flex-start;
+        margin-bottom: 100px;
+        &:last-child {
+            margin-bottom: 0;
+        }
+    }
+    &__review {
+        min-height: 170px;
+        margin-left: 60px;
+        &__name {
+            color: #0d0d0d;
+            font-size: 18px;
+            font-weight: 700;
+        }
+        &__progress {
+            margin-top: 5px;
+            color: #646464;
+            font-size: 14px;
+            font-weight: 300;
+        }
+        &__descr {
+            margin-top: 10px;
+            color: #0d0d0d;
+            font-size: 16px;
+            font-weight: 300;
+        }
+
+    }
+}
