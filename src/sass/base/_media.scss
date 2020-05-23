@@ -199,6 +199,20 @@
             font-size: 15px;
         }
     }
+    .modal {
+        width: 320px;
+        &__close {
+            right: 5px;
+            top: 10px;
+            font-size: 30px;
+        }
+    }
+    .feed-form_mt25 {
+        width: 240px;
+        .button_submit {
+            width: 240px;
+        }
+    }
 }
 
     
