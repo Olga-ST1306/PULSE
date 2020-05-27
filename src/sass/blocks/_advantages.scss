@@ -33,5 +33,27 @@
             text-decoration: underline;
         }
     }
+    &__icon {
+        &_animated1 {
+            animation: cupwow 1.5s ease infinite;
+            &:hover {
+                animation-play-state: paused;
+            }
+        }
+        &_animated2 {
+            animation: heartbeat 1.5s ease infinite;
+            &:hover {
+                animation-play-state: paused;
+            }
+        }    
+        &_animated3 {
+            animation: shoestep 1.5s ease infinite;
+            &:hover {
+                animation-play-state: paused;
+            }
+        }
+        
+
+    }
 
 }
